@@ -1,0 +1,106 @@
+h1{
+  padding-bottom: 3%;
+  color: #020249;
+}
+   /*{
+    border:solid;
+   }*/
+
+
+h2{
+  padding-bottom: 2%;
+  color:orangered;
+  font-family: fantasy;
+  text-align: center;
+}
+
+body{
+    margin: 0px;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .menu{
+    margin-top: 10px;
+    margin-right: 5px;
+    padding-left: 70%;
+  }
+
+  .head{
+
+    padding-bottom: 5%;    
+    background-color:#dfbda6;
+    background-image: url(b.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment:fixed;
+    text-align: center;
+    border:solid;
+    font-family:cursive;
+     }
+  
+  .note{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    border: dotted;
+    color: red;
+       
+  }
+  
+  
+  .img{
+     
+    border: 2px solid #000000;
+    border-radius: 50px;
+    padding: 10%;
+  }
+  
+  .grid {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+  }
+  
+  .origami {
+    border: 1px solid #efe7f0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 500px;
+    padding: 50px;
+    background-color:#8b93ff;
+    border-width: 6px;
+    
+  }
+
+  .origami:hover{
+    transform: scale(1.2);
+  }
+  
+  a:link{
+    transform: scale(1.2);
+    color:#00ffff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  
+  
+  a:visited{
+    color:#7fff00(0, 0, 0);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .img:hover{
+    background-color: #ff000038;
+    color:  #000000;
+  }
+    
